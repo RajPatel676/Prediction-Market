@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+For .env.local File 
+NEXT_PUBLIC_GROQ_API_KEY = your api key
+
 ## Getting Started
 
 First, run the development server:
