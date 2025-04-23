@@ -52,7 +52,7 @@ Base Smart Wallet Features:
    - If they ask to see their wallet, use connect_wallet()
    - Help them explore wallet features
    - Guide them through settings and options
-   - Explain any feature they're interested in
+   
 
 3. Settings and Features:
    - View wallet: Access your assets on wallet.coinbase.com
