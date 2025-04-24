@@ -1,39 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-For .env.local File 
-NEXT_PUBLIC_GROQ_API_KEY = your api key
+# 🚀 PredictBase
 
-## Getting Started
+> Social prediction market powered by Groq & Base — vote on future outcomes with your Smart Wallet and AI-driven insights.
 
-First, run the development server:
+---
+
+## 📌 Problem Statement
+
+**Problem Statement 4 – Craft the Future of Onchain Consumer Experiences with Base**
+
+---
+
+## 🎯 Objective
+
+**PredictBase** solves the problem of trustless, decentralized forecasting by combining real-time social sentiment with onchain voting. It enables anyone to create or participate in prediction markets, leveraging **Groq** for intelligent insights and **Base Smart Wallets** for seamless, secure participation.
+
+It serves communities, analysts, and curious individuals who want to crowdsource predictions on real-world events using social data and AI, all on-chain.
+
+---
+
+## 🧠 Team & Approach
+
+### Team Name:
+
+`DebugPunks`
+
+### Team Members:
+
+- Raj Patel
+- Memon Aman
+- Nevil Savaliya
+
+### Your Approach:
+
+- We chose this problem to showcase how AI agents and onchain tooling can make social prediction more intelligent and accessible.
+- Major challenges included designing an AI-assisted workflow and integrating onchain identity via Smart Wallets.
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies Used:
+
+- Frontend: Next.js + Tailwind CSS
+- Backend: Node.js (API layer)
+- APIs: Groq (prediction summarizer & AI guide)
+- Hosting: Vercel
+- Remix: Contract Development
+
+### Sponsor Technologies Used :
+
+- [✅] **Groq:** Used for natural language insights — summarizing social sentiment and assisting users with prediction context.
+- [✅] **Base:** \_Integrated **Smart Wallets** for user identity and voting mechanism, and onchainkit for transactions handling.
+
+---
+
+## ✨ Key Features
+
+Highlight the most important features of your project:
+
+- ✅ **Create & vote on predictions using Smart Wallets**
+- ✅ **AI-generated insights & summaries with Groq**
+- ✅ **Groq-powered voice and text assistant that guides users in real-time through smart wallet creation and seamless onboarding**
+- ✅ **View prediction stats and voting breakdown**
+
+![predict base homepage](https://prediction-market-xi.vercel.app/assets/predictbase_home.png)
+
+---
+
+## 📽️ Demo & Deliverables
+
+- **Demo Video Link:** [Paste YouTube or Loom link here]
+- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]
+
+---
+
+## ✅ Tasks & Bonus Checklist
+
+- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)
+- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)** (Details in Participant Manual)
+- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)** (Details in Participant Manual)
+
+_(Mark with ✅ if completed)_
+
+---
+
+## 🧪 How to Run the Project
+
+### Requirements:
+
+- Node.js 18+ ( yarn or npm)
+- Groq API Key
+- .env file setup:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+NEXT_PUBLIC_GROQ_API_KEY=YOUR_GROQ_API_KEY
+NEXT_PUBLIC_ONCHAINKIT_API_KEY=BASE_ONCHAINKIT_CLIENT_API_KEY
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Local Setup:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Clone the repo
+git clone https://github.com/RajPatel676/Prediction-Market
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+cd project-name
+yarn install
 
-## Learn More
+# Start development server
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Provide any backend/frontend split or environment setup notes here.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧬 Future Scope
 
-## Deploy on Vercel
+List improvements, extensions, or follow-up features:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📈 Add more social platforms like Reddit or YouTube
+- 🛡️ Integrate proof-of-humanity or CAPTCHA for spam resistance
+- 🌐 Expand to multi-language insights using Groq’s translation capabilities
+- 🔮 Use Groq to generate new prediction ideas from trending data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📎 Resources / Credits
+
+- [Groq AI](https://groq.com/)
+- [Base Smart Wallet](https://wallet.coinbase.com/)
+- [onchainkit](https://www.base.org/builders/onchainkit)
+
+---
+
+## 🏁 Final Words
+
+We had an incredible time building PredictBase — exploring how AI can guide humans in collective forecasting. Groq was blazing fast, and integrating Base Smart Wallets made Web3 onboarding smooth. Shoutout to the mentors and community — you made it worth the grind!
+
+---

@@ -7,7 +7,7 @@ import { Roboto_Mono } from "next/font/google";
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prediction Market",
+  title: "PredictBase",
   description: "A decentralized prediction market on Base",
 };
 
