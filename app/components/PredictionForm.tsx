@@ -33,7 +33,7 @@ export default function PredictionForm({ onSuccess }: PredictionFormProps) {
                         setNewPrediction({ ...newPrediction, question: e.target.value })
                     }
                     className="w-full rounded-lg border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-200 px-4 py-3 text-gray-800 min-h-[100px] resize-none"
-                    placeholder="Will ETH reach $5000 by the end of 2024?"
+                    placeholder="Bitcoin will cross $80,000 before December 31, 2025?"
                     disabled={isConfirming}
                 />
                 <p className="text-xs text-gray-500">
